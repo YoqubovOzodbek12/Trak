@@ -1,5 +1,4 @@
 
-import Car from '../../image/image 288 (5).png';
 import Ptc from '../../image/Icon.svg';
 
 import One from '../../image/CarAboutTwo/1.png'
@@ -8,9 +7,45 @@ import Tree from '../../image/CarAboutTwo/3.png'
 import Four from '../../image/CarAboutTwo/4.png'
 import Five from '../../image/CarAboutTwo/5.png'
 
+import car1 from '../../image/carstwo/1.png';
+import car2 from '../../image/carstwo/2.png';
+import car3 from '../../image/carstwo/3.png';
+import car4 from '../../image/carstwo/4.png';
+
 import cls from './AvtoAboutTwo.module.css'
+import { useState } from 'react';
 
 const AvtoAboutTwo = () => {
+
+
+  const cars = [
+    {
+      img: car1,
+      color: "#E6E7E8",
+      name: "red"
+    },
+    {
+      img: car2,
+      color: "#A2A4AB",
+      name: "green"
+    },
+    {
+      img: car3,
+      color: "#000",
+      name: "yellow"
+    },
+
+    {
+      img: car4,
+      color: "#B0A798",
+      name: "yellow"
+    },
+  ]
+
+
+  const [img, setImage] = useState(cars[3]['img']);
+  const [color, setColor] = useState();
+
   return (
     <div className={cls.about_two}>
       <div className={cls.container}>
@@ -18,12 +53,21 @@ const AvtoAboutTwo = () => {
 
           <div className={cls.about_two_right}>
             <div className={cls.about_two_right_box}>
-              <button className={cls.about_two_right_red}></button>
-              <button className={cls.about_two_right_while}></button>
-              <button className={cls.about_two_right_green}></button>
-              <button className={cls.about_two_right_black}></button>
+              {
+                cars.map((item, index) => {
+                  return (
+                    <button
+                      onClick={() => {
+                        setImage(item.img)
+                        setColor(item.color)
+                      }}
+
+                      style={{ backgroundColor: item.color }} className={cls.image__button}></button>
+                  )
+                })
+              }
             </div>
-            <img className={cls.about_two_right_img} src={Car} alt="" />
+            <img className={cls.about_two_right_img} src={img} alt="" />
             <div className={cls.about_two_left}>
               <p className={cls.about_two_left_text}>Только в АВТОРУСЬ!</p>
               <h4 className={cls.about_two_left_title}>TANK 300</h4>

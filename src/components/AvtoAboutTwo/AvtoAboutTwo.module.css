@@ -101,6 +101,14 @@
   margin-top: 30px;
 }
 
+.image__button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
 .about_two_right_yellow {
   width: 30px;
   height: 30px;

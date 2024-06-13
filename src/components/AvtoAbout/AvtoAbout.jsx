@@ -27,17 +27,17 @@ const AvtoAbout = () => {
     },
     {
       img: car2,
-      color: "green",
+      color: "while",
       name: "green"
     },
     {
       img: car3,
-      color: "yellow",
+      color: "#C6C9CE",
       name: "yellow"
     },
     {
       img: car4,
-      color: "pink",
+      color: "#000",
       name: "pink"
     },
   ]
@@ -67,10 +67,10 @@ const AvtoAbout = () => {
                 cars.map((item, index) => {
                   return (
                     <button
-                        onClick={()=>{
-                          setImage(item.img)
-                          setColor(item.color)
-                        }}
+                      onClick={() => {
+                        setImage(item.img)
+                        setColor(item.color)
+                      }}
 
                       style={{ backgroundColor: item.color }} className={cls.image__button}></button>
                   )
