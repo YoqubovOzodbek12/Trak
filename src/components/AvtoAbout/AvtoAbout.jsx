@@ -1,6 +1,5 @@
 
 
-import Car from '../../image/image 288.png';
 import Ptc from '../../image/Icon.svg';
 import One from '../../image/CarAbout/1.png'
 import Two from '../../image/CarAbout/2.png'
@@ -8,11 +7,44 @@ import Tree from '../../image/CarAbout/3.png'
 import Four from '../../image/CarAbout/4.png'
 import Five from '../../image/CarAbout/5.png'
 
+import car1 from "../../image/cars/1.png";
+import car2 from "../../image/cars/2.png";
+import car3 from "../../image/cars/3.png";
+import car4 from "../../image/cars/4.png";
+
 import cls from './AvtoAbout.module.css'
+import { useState } from 'react';
 
 
 
 const AvtoAbout = () => {
+
+  const cars = [
+    {
+      img: car1,
+      color: "red",
+      name: "red"
+    },
+    {
+      img: car2,
+      color: "green",
+      name: "green"
+    },
+    {
+      img: car3,
+      color: "yellow",
+      name: "yellow"
+    },
+    {
+      img: car4,
+      color: "pink",
+      name: "pink"
+    },
+  ]
+
+  const [img, setImage] = useState(cars[0]['img']);
+  const [color, setColor] = useState();
+
   return (
     <div className={cls.about}>
       <div className={cls.container}>
@@ -29,13 +61,21 @@ const AvtoAbout = () => {
           </div>
 
           <div className={cls.about_right}>
-            <img className={cls.about_right_img} src={Car} alt="" />
+            <img className={cls.about_right_img} src={img} alt="" />
             <div className={cls.about_right_box}>
-              <button className={cls.about_right_yellow}></button>
-              <button className={cls.about_right_red}></button>
-              <button className={cls.about_right_while}></button>
-              <button className={cls.about_right_green}></button>
-              <button className={cls.about_right_black}></button>
+              {
+                cars.map((item, index) => {
+                  return (
+                    <button
+                        onClick={()=>{
+                          setImage(item.img)
+                          setColor(item.color)
+                        }}
+
+                      style={{ backgroundColor: item.color }} className={cls.image__button}></button>
+                  )
+                })
+              }
             </div>
           </div>
 

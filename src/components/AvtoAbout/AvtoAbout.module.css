@@ -101,12 +101,12 @@
   margin-top: 30px;
 }
 
-.about_right_yellow {
+.image__button {
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  background: rgb(191, 191, 19);
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .about_right_red {
