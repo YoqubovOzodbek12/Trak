@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.komplektatsiyu_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.komplektatsiyu_inps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.komplektatsiyu_inp {
+  min-width: 400px;
+  background: transparent;
+  border: none;
+  background-color: #252C2C;
+  border-radius: 8px;
+  border: 1px solid #939697;
+  padding: 12px 0px;
+  margin-top: 10px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.komplektatsiyu_box {
+  position: relative;
+}
+
+.komplektatsiyu_icon {
+  position: absolute;
+  color: #939697;
+  right: 20px;
+  top: 42px;
+}
+
+.komplektatsiyu_text {
+  color: #939697;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.komplektatsiyu_btns {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.komplektatsiyu_btn {
+  background: transparent;
+  border: none;
+  min-width: 155px;
+  color: #939697;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 14px 30px 14px 30px;
+}
+
+.trade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+}
+
+
+.trade_right {
+  padding-left: 35px;
+}
+
+.trade_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  padding-bottom: 35px;
+}
+
+.trade_btn {
+  background: transparent;
+  border: none;
+  min-width: 207px;
+  padding: 14px 30px 14px 30px;
+  background-color: #FF9549;
+  border-radius: 8px;
+}

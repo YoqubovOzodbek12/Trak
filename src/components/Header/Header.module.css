@@ -1,0 +1,136 @@
+.header {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.header_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #939697;
+}
+
+.header_rigth {
+  display: flex;
+  align-items: center;
+}
+
+.header_one {
+  display: flex;
+  align-items: center;
+}
+
+.header_services {
+  padding-left: 6px;
+  padding-right: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.header_two {
+  display: flex;
+  align-items: center;
+}
+
+.header_test {
+  padding-left: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.header_hr {
+  border: none;
+  height: 0.5px;
+  background-color: #939697;
+}
+
+.header_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_bottom_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_bottom_rigth {
+  display: flex;
+  align-items: center;
+}
+
+.header_bottom_text {
+  min-width: 280px;
+  border-right: 0.5px solid #939697;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.header_bottom_diler {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+  margin-left: 25px;
+}
+
+.header_bottom_rigth_box {
+  margin-right: 20px;
+}
+
+.header_bottom_number {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.header_bottom_svyazi {
+  position: relative;
+  color: #939697;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 50%;
+}
+
+.header_bottom_svyazi::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  right: 85px;
+  content: '';
+  border-radius: 50%;
+  background: greenyellow;
+}
+
+.header_bottom_btn {
+  background: transparent;
+  border: none;
+  color: #181818;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 14px 25px 14px 25px;
+  background: #FF9549;
+  border-radius: 8px;
+  cursor: pointer;
+}

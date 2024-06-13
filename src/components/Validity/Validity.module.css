@@ -1,0 +1,152 @@
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.validity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #252C2C;
+  padding: 20px 40px 20px 40px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.alidity_left_text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.alidity_middle {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+.alidity_alidity_middle_box {
+  margin-left: 10px;
+}
+
+.alidity_alidity_middle_box:nth-child(1) {
+  margin-left: 0px;
+}
+
+
+.alidity_middle_wrapper {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.alidity_middle_line {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #fff;
+}
+
+.alidity_middle_br {
+  width: 90px;
+  height: 90px
+}
+
+.alidity_middle_number {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.alidity_middle_text {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.alidity_right_btn {
+  background: transparent;
+  border: none;
+  color: #181818;
+  font-weight: 500;
+  font-size: 14px;
+  list-style: 15px;
+  background-color: #FF9549;
+  padding: 14px 30px 14px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.services_dealer {
+  display: flex;
+  border: 1px solid #939697;
+  padding-top: 15px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.services_dealer:nth-child(1) {
+  margin-left: 0px;
+}
+
+.services_dealer_img {
+  padding-left: 30px;
+}
+
+.services_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  padding-left: 30px;
+}
+
+.services_text {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 30px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+.additional {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.additional_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.additional_desc {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  padding-bottom: 60px;
+}

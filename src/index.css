@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  vertical-align: baseline;
+}
+
+body {
+  font-weight: normal;
+  font-family: 'SF Pro Display', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+form {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(229, 221, 221);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#8a8891, #826f80);
+  border-radius: 10px;
+}

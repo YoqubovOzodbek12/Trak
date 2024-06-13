@@ -1,0 +1,153 @@
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.disclaimer {
+  margin-top: 150px;
+}
+
+.disclaimer_title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.disclaimer_icon {
+  padding-left: 10px;
+}
+
+.disclaimer_text {
+  color: #939697;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.disclaimer_line {
+  display: block;
+  width: 100%;
+  background-color: #939697;
+  height: 1px;
+  color: #939697;
+}
+
+.disclaimer_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.disclaimer_left_title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+
+}
+
+.disclaimer_left_text {
+  color: #939697;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.disclaimer_left_desc {
+  color: #939697;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+
+.disclaimer_right_top {
+  display: flex;
+  align-items: center;
+}
+
+.disclaimer_right_top_box {
+  padding-right: 40px;
+}
+
+.disclaimer_right_number {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.disclaimer_right_text {
+  position: relative;
+  color: #939697;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 90px;
+}
+
+.disclaimer_right_text::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #00D154;
+  border-radius: 50%;
+  left: 75px;
+  top: 3px;
+}
+
+
+
+.disclaimer_right_btn {
+  background: transparent;
+  border: none;
+  min-width: 200px;
+  padding: 14px 30px 14px 30px;
+  border-radius: 8px;
+  background-color: #FF9549;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #181818;
+}
+
+.disclaimer_right_bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 47px;
+  padding-left: 110px;
+}
+
+.disclaimer_right_desc {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.disclaimer_left_diler {
+  color: #939697;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  padding-top: 50px;
+}
+
+.disclaimer_left_iin {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
